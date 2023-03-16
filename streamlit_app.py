@@ -42,6 +42,7 @@ fig = px.scatter_mapbox(
     lat="Latitude",
     lon="Longitude",
     color="Location",
+    color_discrete_map={"To visit":'rgb(0,0,255)', "Airnbnb Listing":'rgb(255,0,0)'},
     zoom=11,
     height=500,
     width=800,
